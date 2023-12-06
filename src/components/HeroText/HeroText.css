@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../../fonts/SFPRODISPLAYREGULAR.OTF") format("opentype");
+  /* Add additional font weights and styles if needed */
+}
+.HeroText {
+  width: 950px;
+  height: 312px;
+  top: 186px;
+  left: 485px;
+  gap: 48px;
+  margin: auto;
+}
+
+.hero-text-div {
+  width: 950px;
+  height: 192px;
+  gap: 18px;
+}
+
+.hero-text-div p {
+  width: 950px;
+  height: 144px;
+  font-family: "SF Pro Display", sans-serif;
+  font-weight: 700px;
+  font-size: 60px;
+  line-height: 72px;
+  align-items: center;
+  color: #24242e;
+}
+
+.lorem {
+  width: 950px;
+  height: 30px;
+  font-family: "SF Pro Display", sans-serif;
+  font-weight: 400px;
+  font-size: 20px;
+  line-height: 30px;
+  align-items: center;
+  color: #4d4d4d;
+}
+
+.hero-text-div button {
+  width: 219px;
+  height: 72px;
+  border-radius: 60px;
+  padding: 28px, 48px, 28px, 48px;
+  gap: 12px;
+  background-color: #a73a3a;
+  font-family: "SF Pro Display", sans-serif;
+  font-weight: 600px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.arrow {
+  margin-left: 5px;
+  /* margin-top: 5px; */
+  width: 18px;
+}
