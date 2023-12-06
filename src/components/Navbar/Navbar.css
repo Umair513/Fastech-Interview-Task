@@ -26,14 +26,11 @@
   left: 1201px;
   gap: 36px;
   display: flex;
-  background-color: bisque;
 }
 
 .mail {
   width: 275px;
   height: 48px;
-
-  background-color: aqua;
 }
 
 .mail-box {
