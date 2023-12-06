@@ -26,14 +26,14 @@
   left: 1201px;
   gap: 36px;
   display: flex;
+  background-color: bisque;
 }
 
 .mail {
   width: 275px;
   height: 48px;
-  gap: 12px;
-  margin-left: 50px;
-  display: flex;
+
+  background-color: aqua;
 }
 
 .mail-box {
@@ -43,6 +43,7 @@
   border: 1px solid #4040da;
   /* display: flex; */
   background-color: #4040da;
+  margin-left: 30px;
 }
 
 .mail-icon {
@@ -50,9 +51,7 @@
   margin-top: 15px;
   color: white;
 }
-.text {
-  width: 215px;
-  height: 30px;
+.mail-text {
   font-family: "SF Pro Display", sans-serif;
   font-weight: 400px;
   size: 20px;
@@ -61,8 +60,8 @@
 }
 
 .text-div {
-  margin-top: -15px;
-  margin-left: -57px;
+  margin-top: -62px;
+  margin-left: 10px;
 }
 .call-div {
   width: 240px;
@@ -83,7 +82,7 @@
   color: #ffffff;
 }
 
-.number {
+.number-div .number {
   width: 132px;
   height: 16px;
   font-family: "SF Pro Display", sans-serif;

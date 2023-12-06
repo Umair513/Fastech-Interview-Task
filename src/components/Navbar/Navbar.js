@@ -16,7 +16,7 @@ const Navbar = () => {
                         <MdMailOutline className='mail-icon' />
                     </div>
                     <div className='text-div'>
-                        <h6 className='text'>PMS@esteeadvisors.com</h6>
+                        <h6 className='mail-text'>PMS@esteeadvisors.com</h6>
                     </div>
                 </div>
                 <div className="call-div">
