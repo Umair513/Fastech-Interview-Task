@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../../fonts/SFPRODISPLAYREGULAR.OTF") format("opentype");
+  /* Add additional font weights and styles if needed */
+}
+.long {
+  width: 1200px;
+  height: 550px;
+  gap: 96px;
+  /* background-color: violet; */
+  margin: auto;
+  display: flex;
+}
+.long .LongAlpha {
+  width: 500px;
+  height: 500px;
+  /* background-color: yellowgreen; */
+  margin-top: 50px;
+}
+.LongAlpha h6 {
+  margin-right: 410px;
+  font-family: "SF Pro Display", sans-serif;
+  font-weight: 700px;
+  font-size: 54px;
+  /* background-color: yellow; */
+  width: 500px;
+  text-align: start;
+  line-height: 62px;
+}
+.LongAlpha span {
+  color: #4040da;
+}
+.LongAlpha .sentence {
+  font-family: "SF Pro Display", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: #4d4d4d;
+}
+.stateFrame {
+  width: 500px;
+  height: 200px;
+  /* background-color: tomato; */
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stateFrame .stateBox {
+  width: 150px;
+  height: 200px;
+  /* background-color: teal; */
+}
+
+.stateBox .icon-box1 {
+  width: 108px;
+  height: 108px;
+  border-radius: 90px;
+  background-color: pink;
+}
+.LongAlpha button {
+  background-color: #a73a3a;
+  margin-top: 30px;
+  margin-left: 1px;
+  width: 250px;
+  height: 50px;
+  padding: 28px, 48px, 28px, 48px;
+  border-radius: 60px;
+  gap: 18px;
+}
